@@ -1,0 +1,27 @@
+img{
+    width: 30;
+    height: 30px;
+}
+h2 {
+    color: rgb(208, 114, 255);
+    background-color:aliceblue;
+}
+table{
+    border: 1px solid rgb(167, 3, 255);
+    border-collapse: collapse;
+    width: 75%;
+}
+ th{
+    border-bottom: 1px solid;
+    background-color: rgba(220, 138, 255, 0.969);
+    color: rgb(1, 32, 32);
+    
+ }
+
+ tr:hover{
+    background-color:darkorchid
+ }
+ 
+ td:nth-child(n+3):nth-child(-1+11){
+    text-align: center;
+ }
